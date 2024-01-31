@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArdoJSON", "ArdoJSON.csproj", "{E2D52C58-3E13-476F-8A68-8FD22CC0BBE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{61C89D1A-0792-4CB6-AC1E-D42660A92BD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArdoJSONUnitTests", "..\ArdoJSONUnitTests\ArdoJSONUnitTests.csproj", "{AA24E1AC-CF4B-460A-9216-70ABF1B9E2CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2D52C58-3E13-476F-8A68-8FD22CC0BBE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D52C58-3E13-476F-8A68-8FD22CC0BBE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D52C58-3E13-476F-8A68-8FD22CC0BBE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D52C58-3E13-476F-8A68-8FD22CC0BBE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA24E1AC-CF4B-460A-9216-70ABF1B9E2CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA24E1AC-CF4B-460A-9216-70ABF1B9E2CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA24E1AC-CF4B-460A-9216-70ABF1B9E2CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA24E1AC-CF4B-460A-9216-70ABF1B9E2CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA24E1AC-CF4B-460A-9216-70ABF1B9E2CD} = {61C89D1A-0792-4CB6-AC1E-D42660A92BD7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D96D7E1-08A8-43EB-AAE7-88590CF33FAD}
+	EndGlobalSection
+EndGlobal
