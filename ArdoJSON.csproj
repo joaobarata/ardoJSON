@@ -7,14 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-    <PackageReference Include="OutSystems.ExternalLibraries.SDK" Version="1.4.0" />
+    <None Remove="resources\logo.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="resources\logo.png">
+    <EmbeddedResource Include="resources\logo.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="OutSystems.ExternalLibraries.SDK" Version="1.4.0" />
   </ItemGroup>
 
 </Project>
